@@ -1,0 +1,37 @@
+.test-img {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.horizontal {
+    display: flex;
+    justify-content: flex-end;
+}
+.vertical {
+}
+.head {
+    display: block;
+    text-align: center;
+}
+.img1v, .img2v {
+    width: 610px;
+    height: 300px;
+}
+.img1h {
+    margin-right: 10px;
+    background-image: url("../img/test.jpg");
+}
+.img1v {
+    margin-bottom: 10px;
+    background-image: url("../img/test.jpg");
+}
+.img2v {
+    background-image: url("../img/test.jpg");
+}
+.img2h {
+    background-image: url("../img/test.jpg");
+}
+.img1h, .img2h {
+    width: 300px;
+    height: 450px;
+}
